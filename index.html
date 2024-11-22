@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOSHDAU Akademik Litseyi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar (Hamburger Menu) -->
+    <nav class="main-nav">
+        <div class="logo">
+            <h1>TOSHDAU Akademik Litseyi</h1>
+        </div>
+        <div class="hamburger-menu" onclick="toggleMenu()">&#9776;</div>
+      
+    </nav>
+
+    <!-- Parallax Section with Video Background -->
+    <section class="hero-section" id="home">
+        <div class="hero-video">
+            <video autoplay muted loop>
+                <source src="./video/gerb.mp4" type="video/mp4">
+            </video>
+        </div>
+
+    </section>
+
+
+
+    
+    <!-- Scroll Animations -->
+    <div class="about-section">
+        <h2 class="about-header">Biz Haqimizda</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Bizning tashkilotimiz yuqori sifatli xizmatlar bilan ta'minlashni maqsad qilgan. Har bir mijozga individual yondashib, ularning ehtiyojlariga mos ravishda eng yaxshi yechimlarni taklif etamiz.</p>
+                <p>Bizning asosiy qadriyatlarimiz: innovatsion yondashuv, professionallik, va mijozlarga xizmat ko'rsatishda mukammallikdir. Har bir yangi loyiha biz uchun yangi imkoniyatlarni yaratadi.</p>
+                <a href="#more" class="learn-more-btn">Batafsil o'qing</a>
+            </div>
+            <img src="./video/unnamed.jpg" alt="Tashkilot rasmi" class="about-img">
+        </div>
+    </div>
+
+    <!-- Testimonial Section -->
+    <section class="testimonials">
+        <h2>Fikrlar</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial">
+                <p>"103-gurpa litsey ichida eng zor gurpa"</p>
+                
+            </div>
+            <div class="testimonial">
+                <p>"Eng yaxshi ta'lim muassasasi!"</p>
+                
+            </div>
+            <!-- Boshqa fikrlar qo'shish mumkin -->
+        </div>
+
+    </section>
+
+
+<section id="contact">
+        <h2 class="contact-h2">Biz bilan bog'laning</h2>
+        <form action="#" method="POST" id="contact-form">
+            <label for="name">Ism:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Elektron pochta:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Xabar:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Yuborish</button>
+        </form>
+    </section> 
+
+    Footer 
+    <!-- <form id="contact-form">
+    <input type="text" id="name" placeholder="Ismingiz" required><br>
+    <input type="email" id="email" placeholder="Email" required><br>
+    <textarea id="message" placeholder="Xabar" required></textarea><br>
+    <button type="submit">Yuborish</button>
+</form> -->
+
+
+    <script src="script.js"></script>
+</body>
+</html>
